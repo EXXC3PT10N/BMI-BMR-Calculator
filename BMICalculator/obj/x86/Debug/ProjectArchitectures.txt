@@ -1,0 +1,1 @@
+C:\Users\Mikolaj\source\repos\BMICalculator\BMICalculator\BMICalculator.csproj;x86

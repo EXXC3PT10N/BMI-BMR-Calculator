@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="BMICalculator.page_info_BMI"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BMICalculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Height="1060" Margin="0,0,3,0" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="24" HorizontalAlignment="Stretch"><Run Text="Informacje"/><LineBreak/><Run Text="Wskaźnik masy ciała (ang. body mass index, BMI), także wskaźnik Queteleta II – współczynnik powstały przez podzielenie masy ciała podanej w kilogramach przez kwadrat wysokości podanej w metrach."/><LineBreak/><Run Text="Progi: "/><LineBreak/><Run Text="wygłodzenie - &lt; 16"/><LineBreak/><Run Text="wychudzenie - 16 "/><Run Text="&#x9;"/><Run Text="- 16,99"/><LineBreak/><Run Text="niedowaga - 17 - 18,49"/><LineBreak/><Run Text="pożądana masa ciała - 18,5 - 24,99"/><LineBreak/><Run Text="nadwaga - 25 - 29,99"/><LineBreak/><Run Text="otyłość I stopnia - 30 - 34,99"/><LineBreak/><Run Text="otyłość II stopnia (duża) - 35 - 39,99"/><LineBreak/><Run Text="otyłość III stopnia (chorobliwa) - &gt; 40"/></TextBlock>
+    </Grid>
+</Page>

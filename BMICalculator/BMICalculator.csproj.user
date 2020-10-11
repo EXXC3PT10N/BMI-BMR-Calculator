@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>E:\Projekty\apki\33d3e2f69fa5310756ddd1db71766188.png</Source>
+    <SmallTileSource>E:\Projekty\apki\33d3e2f69fa5310756ddd1db71766188.png</SmallTileSource>
+    <MediumTileSource>E:\Projekty\apki\33d3e2f69fa5310756ddd1db71766188.png</MediumTileSource>
+    <WideTileSource>E:\Projekty\apki\33d3e2f69fa5310756ddd1db71766188.png</WideTileSource>
+    <LargeTileSource>E:\Projekty\apki\33d3e2f69fa5310756ddd1db71766188.png</LargeTileSource>
+    <AppIconSource>E:\Projekty\apki\33d3e2f69fa5310756ddd1db71766188.png</AppIconSource>
+    <SplashScreenSource>E:\Projekty\apki\33d3e2f69fa5310756ddd1db71766188.png</SplashScreenSource>
+    <PackageLogoSource>E:\Projekty\apki\33d3e2f69fa5310756ddd1db71766188.png</PackageLogoSource>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <UseSimulator>false</UseSimulator>
+    <UseEmulator>false</UseEmulator>
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+  </PropertyGroup>
+</Project>

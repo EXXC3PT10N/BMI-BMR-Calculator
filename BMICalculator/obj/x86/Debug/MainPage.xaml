@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="BMICalculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BMICalculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="10,0,10,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <RadioButton x:ConnectionId='1' x:Name="male" Content="Mężczyzna" HorizontalAlignment="Left" Margin="217,387,0,0" VerticalAlignment="Top"                               GroupName="gender" Height="60" Width="160" FontSize="24"/>
+        <RadioButton x:ConnectionId='2' x:Name="female" Content="Kobieta" HorizontalAlignment="Left" Margin="217,322,0,0" VerticalAlignment="Top" GroupName="gender" Height="60" Width="160" FontSize="24"/>
+        <TextBox x:ConnectionId='3' x:Name="age" HorizontalAlignment="Left" Margin="217,447,0,0" Text="" VerticalAlignment="Top" Height="60" Width="160" FontSize="24" PlaceholderText="Wiek"/>
+        <TextBlock x:ConnectionId='4' x:Name="title" HorizontalAlignment="Center" Margin="0,98,0,0" Text="Kalkulator BMI/BMR" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Height="64" Width="427" FontFamily="Segoe UI"/>
+        <TextBlock x:ConnectionId='5' x:Name="subtitle" HorizontalAlignment="Center" Margin="0,190,0,0" Text="BMI" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:ConnectionId='6' x:Name="height" HorizontalAlignment="Left" Height="60" Margin="217,507,0,0" Text="" VerticalAlignment="Top" Width="160" FontSize="24" PlaceholderText="Wzrost"/>
+        <TextBox x:ConnectionId='7' x:Name="weight" HorizontalAlignment="Left" Margin="217,567,0,0" Text="" VerticalAlignment="Top" FontSize="24" Width="160" Height="60" PlaceholderText="Waga"/>
+        <TextBlock HorizontalAlignment="Left" Margin="54,447,0,0" Text="Wiek:" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="60" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="54,507,0,0" Text="Wzrost:" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="60" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="54,567,0,0" Text="Waga:" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="60" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="60" Margin="54,350,0,0" Text="Płeć" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" FontSize="24" TextAlignment="Left"/>
+
+    </Grid>
+</Page>
+

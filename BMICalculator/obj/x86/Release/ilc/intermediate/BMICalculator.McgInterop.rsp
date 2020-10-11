@@ -1,0 +1,44 @@
+ /debug:pdbonly
+ /nowarn:0436;0618;1668;1685;1701;1702
+ /debug+
+ /nostdlib+
+ /optimize+
+ /out:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop.dll"
+ /pdb:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop.pdb"
+ /platform:x86
+ /warnaserror+
+ /unsafe
+ /nologo
+ /target:library
+ /define:MCG_PRE_BUILD
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x86\ilc\lib\Private\System.Private.CoreLib.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x86\ilc\lib\Private\System.Private.CoreLib.InteropServices.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x86\ilc\lib\Private\System.Private.Interop.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Private.Uri.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x86\ilc\lib\Private\System.Private.CompilerServices.ICastable.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x86\ilc\lib\Private\System.Private.Reflection.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x86\ilc\lib\Private\System.Private.DispatchProxy.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Reflection.DispatchProxy.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Reflection.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Runtime.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Runtime.InteropServices.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Numerics.Vectors.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Threading.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Diagnostics.Debug.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Dynamic.Runtime.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x86\ilc\lib\Private\System.Private.CoreLib.Augments.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Runtime.Extensions.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.Collections.dll"
+ /r:"H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\in\System.ObjectModel.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x86\1.7.3\tools\SharedLibrary\ret\AnalysisILToc\System.Private.SharedLibrary.Interop.Generated.iltoc"
+ "H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop\Adapters.g.cs"
+ "H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop\AssemblyInfo.g.cs"
+ "H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop\Data.g.cs"
+ "H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop\Helpers.g.cs"
+ "H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop\ImplTypes.g.cs"
+ "H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop\PInvoke.g.cs"
+ "H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop\SafeTypes.g.cs"
+ "H:\Visual Studio Projects\BMICalculator\BMICalculator\obj\x86\Release\ilc\intermediate\BMICalculator.McgInterop\SharedStubs.g.cs"

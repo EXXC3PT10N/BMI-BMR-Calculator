@@ -1,0 +1,2 @@
+MainPackage=H:\Visual Studio Projects\BMICalculator\BMICalculator\bin\x86\Release\BMICalculator_1.0.1.0_x86.appx
+SymbolPackage=H:\Visual Studio Projects\BMICalculator\BMICalculator\AppPackages\BMICalculator_1.0.1.0_Test\BMICalculator_1.0.1.0_x86.appxsym

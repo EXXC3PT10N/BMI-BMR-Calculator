@@ -1,0 +1,6 @@
+MainPackage=H:\Visual Studio Projects\BMICalculator\BMICalculator\bin\x64\Release\BMICalculator_1.0.1.0_x64.appx
+SymbolPackage=H:\Visual Studio Projects\BMICalculator\BMICalculator\AppPackages\BMICalculator_1.0.1.0_Test\BMICalculator_1.0.1.0_x64.appxsym
+ResourcePack=H:\Visual Studio Projects\BMICalculator\BMICalculator\bin\x64\Release\BMICalculator_1.0.1.0_scale-100.appx
+ResourcePack=H:\Visual Studio Projects\BMICalculator\BMICalculator\bin\x64\Release\BMICalculator_1.0.1.0_scale-125.appx
+ResourcePack=H:\Visual Studio Projects\BMICalculator\BMICalculator\bin\x64\Release\BMICalculator_1.0.1.0_scale-150.appx
+ResourcePack=H:\Visual Studio Projects\BMICalculator\BMICalculator\bin\x64\Release\BMICalculator_1.0.1.0_scale-400.appx

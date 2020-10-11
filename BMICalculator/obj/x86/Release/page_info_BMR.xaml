@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="BMICalculator.page_info_BMR"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BMICalculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Margin="0,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="1079" FontSize="24"><Run Text="Co to jest kalkulator BMR?"/><LineBreak/><Run Text="To kalkulator zapotrzebowania kalorycznego człowieka, które jest potrzebne aby utrzymywać podstawowe funkcje organizmu zachodzące w układzie nerwowym, wątrobie, nerkach, sercu i pozostałych narządach Twojego ciała."/><LineBreak/><Run Text="Bieganie, jazda na rowerze, orbitrek, rower stacjonarny zwiększają zapotrzebowanie kaloryczne przez większą ilość spalania kalorii przez co Twój wydatek energetyczny może mocno się zwiększyć."/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="BMICalculator.page_BMR"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BMICalculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <FlyoutBase.AttachedFlyout>
+            <MenuFlyout/>
+        </FlyoutBase.AttachedFlyout>
+        <TextBlock x:Name="subtitle" HorizontalAlignment="Left" Margin="187,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="0.556,-0.458" Text="BMR"/>
+        <Grid HorizontalAlignment="Left" Height="707" Margin="63,63,0,0" VerticalAlignment="Top" Width="361">
+            <TextBox x:Name="height" HorizontalAlignment="Left" Margin="201,0,0,0" Text="" VerticalAlignment="Top" FontSize="24" PlaceholderText="Wzrost (cm)" FontFamily="Segoe UI" Width="160" Height="50"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  FontSize="24" RenderTransformOrigin="-0.585,0.25" Width="201" FontFamily="Segoe UI" Height="50"><Run Text="Wzrost"/><Run Text=":"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="0,50,0,0" Text="Waga:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="201" Height="50" FontFamily="Segoe UI"/>
+            <TextBox x:Name="weight" HorizontalAlignment="Left" Margin="201,50,0,0" Text="" VerticalAlignment="Top" PlaceholderText="Waga (kg)" Height="50" Width="160" FontSize="24" FontFamily="Segoe UI"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,135,0,0" Text="Płeć:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="201" Height="50" FontFamily="Segoe UI"/>
+            <Button Content="Oblicz" HorizontalAlignment="Left" Margin="201,350,0,0" VerticalAlignment="Top" FontSize="24" Width="160" Height="50" Click="Button_Click"/>
+            <TextBox x:Name="result" HorizontalAlignment="Left" Margin="201,405,0,0" Text="" VerticalAlignment="Top" PlaceholderText="Wynik" IsReadOnly="True" FontSize="24" Width="160" Height="96"/>
+            <RadioButton x:Name="female" Content="Kobieta" HorizontalAlignment="Left" Margin="201,110,0,0" VerticalAlignment="Top" Width="160" Height="50" FontSize="24" GroupName="gender"/>
+            <RadioButton x:Name="male" Content="Mężczyzna" HorizontalAlignment="Left" Margin="201,160,0,0" VerticalAlignment="Top" FontSize="24" Width="160" Height="50" GroupName="gender" FontFamily="Segoe UI"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,210,0,0" Text="Wiek:" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Height="50" FontSize="24" FontFamily="Segoe UI"/>
+            <TextBox x:Name="age" HorizontalAlignment="Left" Margin="201,210,0,0" Text="" VerticalAlignment="Top" PlaceholderText="Wiek" Width="160" Height="50" FontSize="24" FontFamily="Segoe UI"/>
+            <ComboBox x:Name="activity" HorizontalAlignment="Left" Margin="201,260,0,0" VerticalAlignment="Top" Width="160" Height="50" SelectionChanged="Activity_SelectionChanged" PlaceholderText="Aktywność" FontSize="24">
+                <ComboBoxItem x:Name="activity1" Content="Brak aktywności"/>
+                <ComboBoxItem x:Name="activity2" Content="niska aktywność"/>
+                <ComboBoxItem x:Name="activity3" Content="średnia aktywność"/>
+                <ComboBoxItem x:Name="activity4" Content="wysoka aktywność"/>
+                <ComboBoxItem x:Name="activity5" Content="bardzo wysoka aktywność"/>
+            </ComboBox>
+            <TextBlock HorizontalAlignment="Left" Margin="0,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Height="120" Width="190"><Run Text="Twoje zapotrzebowanie kaloryczne"/><Run Text=" (kcal)"/></TextBlock>
+            <TextBlock x:Name="bmrBlock" HorizontalAlignment="Left" Margin="10,522,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="116" Width="345" FontSize="20" Visibility="Collapsed"/>
+        </Grid>
+        <Frame x:Name="info_frame" Content="Frame" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Height="1070" Width="361"/>
+    </Grid>
+</Page>
