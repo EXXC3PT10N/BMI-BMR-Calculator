@@ -13,3 +13,6 @@ Gotową aplikację można pobrać w zakładce [release](https://github.com/msz64
 
 ## Zrzuty ekranu
 
+![Menu główne](Screenshots/menu.jpg)
+![BMI](Screenshots/BMI.jpg)
+![BMR](Screenshots/BMR.jpg)
